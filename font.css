@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url('ProximaNova-Light.eot') format('embedded-opentype'),format('woff'), url('ProximaNova-Light.ttf')  format('truetype'), url('ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src:  url(data:application/x-font-woff)
+format('woff'), url('ProximaNova-Bold.ttf')  format('truetype'), url('ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNovaRegular';
+	src: url('./ProximaNovaRegular.eot');
+	src: local('ProximaNovaRegular'), url('./ProximaNovaRegular.woff') format('woff'), url('./ProximaNovaRegular.ttf') format('truetype');
+}
+@font-face {
+font-family: 'Proxima Nova Semibold';
+font-style: normal;
+font-weight: normal;
+src: local('Proxima Nova Semibold'), url('Proxima Nova Semibold.woff') format('woff');
+}
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('BebasNeue.eot?#iefix') format('embedded-opentype'),  url('BebasNeue.otf')  format('opentype'),
+	     url('BebasNeue.woff') format('woff'), url('BebasNeue.ttf')  format('truetype'), url('BebasNeue.svg#BebasNeue') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),  url('Roboto-Regular.woff') format('woff'), url('Roboto-Regular.ttf')  format('truetype'), url('Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('OpenSans.eot?#iefix') format('embedded-opentype'),  url('OpenSans.woff') format('woff'), url('OpenSans.ttf')  format('truetype'), url('OpenSans.svg#OpenSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('OpenSans-Bold.eot?#iefix') format('embedded-opentype'),  url('OpenSans-Bold.woff') format('woff'), url('OpenSans-Bold.ttf')  format('truetype'), url('OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url('ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),  url('ProximaNova-Semibold.otf')  format('opentype'),
+	     url('ProximaNova-Semibold.woff') format('woff'), url('ProximaNova-Semibold.ttf')  format('truetype'), url('ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

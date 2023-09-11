@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<title>Applicant Job Portal</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="font.css"/>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="parent">
+	<div class="header col-md-12">
+    	<div class="container">
+        	<div class="header-logo col-md-6 col-sm-6 col-xs-12">
+            	<h1><a href="#"><img src="logo.png" width="220" height="39" alt="logo"/></a></h1>
+            </div>
+        	
+             <div class="menu-toggle col-md-6 col-sm-6 col-xs-6">
+            	<div type="button"  id="menu" class="btton-toggle" >
+                	<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>
+                   
+                   <ul class="menu-list">
+                    	<li><a href="#">PRODUCTS & PRICING</a></li>
+                        <li><a href="#">SIGNUP</a></li>
+                        <li><a href="#">LOGIN</a></li>
+                        <li class="post_btn"><a href="#">POST A JOB</a></li>
+                    </ul>    
+             </div>
+          </div>
+	</div>
+
+
+
+		<div class="banner col-md-12 ">
+        	<div class="container">
+            	<div class="adv_heading   col-sm-12 col-xs-12">
+            		<h3>Advertisers Register</h3>
+                </div>    	
+            </div>
+       </div>
+
+		
+        
+        <div class="register_form col-md-12">
+        	<div class="container reg_form">
+            	
+                <div class="row">
+                	
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                    	<div class="profile_img">
+                        	<img src="profile.png" width="434" height="799" class="img-responsive"/>	
+                        </div>
+                    </div>
+                    
+                  	<div class="col-md-8">
+                    	<div class="row">
+                        	<div class="col-md-6 col-sm-12 col-xs-12">
+                            	<div class="left-content">
+                                
+                                		<h4 class="pd">PERSONAL DETAILS</h4>
+                      <form method="post">
+                          <div class="form-inline center1">
+                        	 <div class="form-group first_name">
+                               <label for="fn" class="first">First Name</label>
+                            	<input type="text" id="f_name" class=" form-control" placeholder="Enter your name"/> 
+                            </div>
+                            
+                        	 <div class="form-group ph_num">
+                               <label for="ph" class="phone">Phone Number</label>
+                            	<input type="text" id="p_num" class=" form-control" placeholder="Enter your phone number"/> 
+                            </div>
+                            
+                        	 <div class="form-group pas_wd">
+                               <label for="pswd" class="pass">Password (min of 8 characters)</label>
+                            	<input type="password" id="pass_wd" class=" form-control" placeholder="Enter your password"/> 
+                            </div>
+                            
+                           </div>
+                        </form>
+                                
+                                </div>
+                            </div>
+                            
+                         <div class="col-md-6 col-sm-12 col-xs-12">
+                           <div class="right_content">
+                            		<form method="post">
+                          	<div class="form-inline ">
+                        	 <div class="form-group last_name">
+                               	<label for="ln" class="last">Last Name</label>
+                            	<input type="text" id="l_name" class=" form-control" placeholder="Enter your name"/> 
+                            </div>
+                            
+                        	 <div class="form-group e_mail">
+                               <label for="em" class="email">Email address</label>
+                            	<input type="text" id="email_id" class=" form-control" placeholder="Enter your phone number"/> 
+                            </div>
+                            
+                        	 <div class="form-group c_pass">
+                               <label for="con_pswd" class="conpass">Confirm Password</label>
+                            	<input type="password" id="confirm_pass" class=" form-control" placeholder="Enter your confirm password"/> 
+                            </div>
+                            </div>
+                        </form>
+                                
+                                </div>
+                            </div>
+                            
+                        </div><!--end of 1st row-->
+                    
+                    
+                    	<div class="row">
+                        
+                        	<div class="col-md-6">
+                            
+                            	<div class="left_company">
+                                	<h4 class="cd">COMPANY DETAILS</h4>
+                      <form method="post">
+                          <div class="form-inline center1">
+                        	 <div class="form-group first_name">
+                               <label for="fn" class="first">Company Name</label>
+                            	<input type="text" id="f_name" class=" form-control" placeholder="Enter your Company name"/> 
+                            </div>
+                            
+                        	 <div class="form-group ph_num">
+                               <label for="ph" class="phone">Number of Employees</label>
+                            	<select class="form-control" id="p_num">
+                                	<option>Select the number of employees</option>
+                                </select> 
+                            </div>
+                            
+                        	 <div class="form-group pas_wd">
+                               <label for="pswd" class="pass">Company Website</label>
+                            	<input type="text" id="pass_wd" class=" form-control" placeholder="Enter your Company website"/> 
+                            </div>
+                            
+                            <div class="form-group pas_wd">
+                               <label for="pswd" class="pass">Address</label>
+                            	<textarea id="add" class=" form-control" rows="5" placeholder="Enter your address"></textarea> 
+                            </div>
+                            	
+                           </div>
+                        </form>
+                                
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                            	<div class="right_select">
+                                
+                                	<form method="post">
+                          <div class="form-inline ">
+                        	 <div class="form-group indus">
+                               <label for="industry" class="ind">Industry</label>
+                               <select class="form-control" id="sel_ind">
+                                	<option>Select your industry</option>
+                                </select>
+                            </div>
+                             <div class="form-group employ">
+                               <label for="employer" class="emp">Employer</label>
+                               <select class="form-control" id="sel_emp">
+                                	<option>Select the type of employer</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group state">
+                               <label for="country" class="stat">State</label>
+
+                               <select class="form-control" id="sel_stat">
+                                	<option>Select your country</option>
+                                </select>
+                            </div>
+                            <div class="form-group country">
+                               <label for="country" class="count">Country</label>
+                               <select class="form-control" id="sel_coun">
+                                	<option>Select your country</option>
+                                </select>
+                            </div>
+                            
+                            
+                           </div><!--end of form in line-->
+                           <div class="para">
+                           <p>By continuing, I agree to the <a href="#" style="color:#5999cf;">Service Agreement and Privacy Policy</a>. Already have a Job Portal account? <a href="#" style="#5999cf;">Sign in</a></p></div>
+                        </form>
+                                
+                                </div>
+                            </div>
+                        <button type="submit"  id="ca_button" class="btn btn-primary">Create Account</button>
+                        </div><!--end of 2nd row-->
+                    
+                    
+                    </div><!--end of row-->
+                
+            </div><!--end of container-->
+        </div><!--end of reg form-->
+
+
+	
+    	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
+<script>
+$(document).ready(function(){
+    $('#menu').click(function(){
+        $(".menu-list").toggle("show");
+    });
+});
+
+</script>

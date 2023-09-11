@@ -1,0 +1,308 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding-top:0px;
+	background-color:#f4f4f4 !important;
+	}
+.header{
+	background-color:#232838;
+	}
+.header-logo.col-md-6.col-sm-6.col-xs-12 {
+    height: 74px;
+}
+li {
+    float: left;
+    list-style-type: none;
+    padding: 14px;
+}
+.menu-list a {
+    color: #fff;
+	font-family: 'ProximaNova-Bold';
+	font-size:16px;
+}
+ul {
+    margin-top: 12px !important;
+}
+.post_btn {
+    background-color: #fb4848;
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 6px;
+	padding: 7px 10px 10px 14px;
+    width: 122px;
+}
+
+.banner{
+	background:url(../images/adv_ban.png);
+	height:141px;
+	background-size:cover;
+	}
+.adv_heading{
+	color:#FFF;
+	text-align:center;
+	}
+.adv_heading h3 {
+    font-size: 48px;
+    margin-top: 36px;
+	font-family: 'ProximaNovaRegular';
+}
+.reg_form{
+	background:#ffffff;
+	margin-top:50px;
+	}
+.pd{
+	font-family: 'Proxima Nova Semibold';
+	font-size:16px;
+	margin-top:34px;
+	width:314px;
+	}
+.cd{
+	font-family: 'Proxima Nova Semibold';
+	font-size:16px;
+	margin-top:52px;
+	width:314px;
+	}
+.profile_img{
+	margin-left:-15px;
+	}
+.first_name{
+	margin-top:15px;
+	}
+.first{
+	width:315px;
+	font-size:14px; 
+	font-family: 'ProximaNovaRegular';
+	}
+#f_name{
+	width:315px;
+	height:33px;
+	margin-top: -7px;
+	}
+.ph_num{
+	margin-top:19px;
+	}
+.phone{
+	width:315px;
+	font-size:14px; 
+	font-family: 'ProximaNovaRegular';
+	}
+#p_num{
+	width:315px;
+	height:33px;
+	margin-top: -7px;
+	}
+.pas_wd{
+	margin-top:19px;
+	}
+.pass{
+	width:315px;
+	font-size:14px; 
+	font-family: 'ProximaNovaRegular';
+	}
+#pass_wd{
+	width:315px;
+	height:33px;
+	margin-top: -7px;
+	}
+.right_content {
+	margin-top:62px;
+}
+.last_name{
+	margin-top:15px;
+	}
+.last{
+	width:315px;
+	font-size:14px; 
+	font-family: 'ProximaNovaRegular';
+	}
+#l_name{
+	width:315px;
+	height:33px;
+	margin-top: -7px;
+	}
+.e_mail{
+	margin-top:19px;
+	}
+.email{
+	width:315px;
+	font-size:14px; 
+	font-family: 'ProximaNovaRegular';
+	}
+#email_id{
+	width:315px;
+	height:33px;
+	margin-top: -7px;
+	}
+.c_pass{
+	margin-top:19px;
+	}
+.conpass{
+	width:315px;
+	font-size:14px; 
+	font-family: 'ProximaNovaRegular';
+	}
+#confirm_pass{
+	width:315px;
+	height:33px;
+	margin-top: -7px;
+	}
+.per_det{
+	margin-top:59px;
+	}
+#add{
+	width:315px;
+	height:66px;
+	margin-top: -7px;
+	}
+#ca_button{
+	margin-top:-29px;
+	margin-left:16px;
+	background-color:#5999cf;
+	}
+.total_details{
+	margin-top:61px;
+	}
+.indus{
+	margin-top:82px;
+	}
+.ind{
+	margin-top:8px;
+	width:315px;
+	}
+#sel_ind{
+	margin-top:-6px;
+	width:315px;
+	height:33px;
+	}
+.employ{
+	margin-top:15px;
+	}
+.emp{
+	width:315px;
+	}
+#sel_emp{
+	margin-top:-6px;
+	width:315px;
+	height:33px;
+	}
+.state{
+	margin-top:15px;
+	}
+.stat{
+	width:315px;
+	}
+#sel_stat{
+	margin-top:-6px;
+	width:315px;
+	height:33px;
+	}
+.para{
+	 font-family: 'OpenSans';
+	margin-top:12px;
+	width:315px;
+	height:auto;
+	}	
+.center3{
+	margin-top:-46px;
+	}
+.count{
+	margin-top:15px;
+	width:315px;
+	}
+
+#sel_coun{
+	margin-top:-6px;
+	width:315px;
+	height:33px;
+	}
+.menu-list a:hover{
+	text-decoration:none;
+	color:#149fcc;
+	}
+.btton-toggle {
+  display: none;
+  background:#333;
+  height:50px;
+  width:60px;
+}
+
+span.icon-bar {
+    background:#09F;
+	
+}
+.parent{
+	
+	}	
+@media(min-width:992px)and (max-width:1199px){
+.left-content input, .right_content  input, .left_company input, .left_company select, .left_company textarea, 
+.right_select select, .right_select p{
+	width:272px !important;
+	}
+	
+	
+	}
+
+
+
+	
+@media(min-width:768px)and (max-width:991px){
+#ca_button {
+    background-color: #5999cf;
+    margin-left: 16px;
+	margin-top:0px;
+}
+.para {
+    font-family: "OpenSans";
+    height: auto;
+    margin-top: 12px;
+	width:100%;
+}
+.left-content input, .right_content input, .left_company input, .left_company textarea, .right_select select, .right_select p{
+	width:100% !important;
+	}	
+#p_num{
+	width:100%;
+	}
+	
+	}
+
+
+	
+@media (max-width:767px){
+.btton-toggle {
+  display: block;
+  height:20px;
+}
+.menu-toggle ul{
+	display:none;
+	}	
+span.icon-bar {
+    background: #09f none repeat scroll 0 0;
+    display: block;
+    height: 1px;
+    width: 55px;
+	margin:4px;
+	margin-left: 3px;
+}
+#ca_button {
+    background-color: #5999cf;
+    margin-left: 16px;
+	margin-top:0px;
+}
+.para {
+    font-family: "OpenSans";
+    height: auto;
+    margin-top: 12px;
+	width:100%;
+}
+
+
+.left-content input, .right_content input, .left_company input, .left_company textarea, .right_select select, .right_select p{
+	width:100% !important;
+	}
+#p_num{
+	width:100%;
+	}
+
+}
